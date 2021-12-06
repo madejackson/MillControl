@@ -28,7 +28,18 @@ This was designed to build a time controlled coffee grinder out of any regular m
 - TimerOne (v1.1) - https://github.com/PaulStoffregen/TimerOne
 - U8Glib - https://github.com/olikraus/u8glib
 
+### Electronic schematic
+
+I prefer a old school schmatic style over those fanzy fritzing pictures.
+
+[![Schematic](./Assets/schematic_2.png)](./Assets/schematic.pdf#gh-light-mode-only)
+![Schematic](./Assets/schematic_darktmode.png#gh-dark-mode-only)
+
 ### User Interface
+
+#### navigation overview
+In this section I will insert a navigation overview over all the user interaction.
+
 #### Select a Time Mode
 You can select from up to 20 timer modes with settings fr time or weight. 
 There are two different time modes: multi selection and single selection (FLAT_MODE in UI.h).
@@ -98,11 +109,7 @@ If you set on A0 a "taster" (don't know the english word) you can get a brew-tim
 
 ![Brewing](./Assets/pictures/brew.png)
 
-### Schematic
-I prefer a old school schmatic style over those fanzy fritzing pictures. Still I added them below in case you prefer them. 
 
-[![Schematic](./Assets/schematic_2.png)](./Assets/schematic.pdf#gh-light-mode-only)
-![Schematic](./Assets/schematic_darktmode.png#gh-dark-mode-only)
 
 ### (c) 2015 by Roman Seidl
 
