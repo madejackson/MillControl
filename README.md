@@ -1,13 +1,21 @@
+Credits for this are going out to [romanseidl](https://github.com/romanseidl) for starting all of this. If he ever merges my current PRs I would be glade to merge everything into his project. Otherwise this forkes stays alive.
 
+# MillControl - Arduino Coffee Grinder Control (time and weight)
 
-# MillControl
-## Arduino Coffee Grinder Control
-
-### THIS DESCRIPTION IS A BIT OUT OF DATE I WILL UPDATE IT WHEN I GET TO IT. 
-If you speak german please refer to: 
+If you speak german you can find a forum with some discussion here: 
 https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-und-brew-timer.95553/
+07.12.2021 - Currently I am working on getting all the content from the forum to github
 
-This was designed to build a time controlled coffee grinder out of any regular machine. It was developed to be used with a Graef CM 70 but it should work fine with any brand or model.
+## Purpose of this project
+This was designed to build a time controlled coffee grinder out of any regular machine. 
+It was developed to be used with a Graef CM 70 but it should work fine with any brand or model.
+During the development process a weight option was introduced as well.
+
+Here are some examples on how it can look at the end:
+
+![super0650_116](./Assets/pictures/finishedProjects/super0650_116.png)
+
+Source: [Kaffee-Netz comment 116](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-6#post-1227378)
 
 ### Requirements
  - Runs on Arduino Pro Mini & compatible systems (should be most arduino machines having a ATmega328 or better CPU, needs 32k of storage space).
