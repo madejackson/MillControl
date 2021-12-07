@@ -4,6 +4,7 @@ Credits for this are going out to [romanseidl](https://github.com/romanseidl) fo
 
 If you speak german you can find a forum with some discussion here: 
 https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-und-brew-timer.95553/
+
 07.12.2021 - Currently I am working on getting all the content from the forum to github
 
 ## Purpose of this project
@@ -12,10 +13,11 @@ It was developed to be used with a Graef CM 70 but it should work fine with any 
 During the development process a weight option was introduced as well.
 
 Here are some examples on how it can look at the end:
+|  <img src="./Assets/pictures/finishedProjects/super0650_116.png" width="240"> |  <img src="./Assets/pictures/finishedProjects/flooene_172.jpg" width="240"> | <img src="./Assets/pictures/finishedProjects/mdanielsen_187.JPEG" width="240">  | <img src="./Assets/pictures/finishedProjects/Mofasepp1982_199.jpg" width="240">  |
+|---|---|---|---|
+| Source: [Kaffee-Netz comment 116](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-6#post-1227378)  | Source: [Kaffee-Netz comment 172](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-9#post-1405995)  | Source: [Kaffee-Netz comment 187](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-10#post-1684586)  | Source: [Kaffee-Netz comment 199](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-10#post-2014633)  |
 
-![super0650_116](./Assets/pictures/finishedProjects/super0650_116.png)
 
-Source: [Kaffee-Netz comment 116](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-6#post-1227378)
 
 ### Requirements
  - Runs on Arduino Pro Mini & compatible systems (should be most arduino machines having a ATmega328 or better CPU, needs 32k of storage space).
@@ -37,10 +39,10 @@ I prefer a old school schmatic style over those fanzy fritzing pictures.
 ### User Interface
 
 #### navigation overview
-In this section I will insert a navigation overview over all the user interaction.
+In this section I will insert a navigation overview for all user interaction.
 
 #### Select a Time Mode
-You can select from up to 20 timer modes with settings fr time or weight. 
+You can select from up to 20 time modes with settings for time or weight. 
 There are two different time modes: multi selection and single selection (FLAT_MODE in UI.h).
 
 ##### multi selection
@@ -55,7 +57,7 @@ If there is no mill button then you can only choose from single and double click
 ![SelectTimeWeightDirect](./Assets/pictures/timeWeightDirect_L.png)
 
 ##### single selection
-Every time / weight has it own side. With one click will this site be startet. In the direct mode ("start") will one click start the mill until anothe click stopps the mill, hold (the hold function also does something. But not clear what.).
+Every time / weight has its own side. With one click this site will be startet. In the direct mode ("start") will start the mill until another click stopps the mill, hold (the hold function also does something. But not clear what.).
 
 ###### Portrait mode
 ![SelectTimeWeightDirect](./Assets/pictures/scaleDirect_P.png)
@@ -77,14 +79,14 @@ For a time mode the respective times and the title are editable.
 ![Landscape Editor](./Assets/pictures/timemode_L.png)
 
 ##### weight mode
-Alternativly ther is a "weight mode automation". A grinde speed will be set in sec/gramms (which is basically also grind duration) and additional some weights. The titel of the page can also beedit.
+Alternativly there is a "weight mode automation". A grinde speed will be set in sec/gramms (which is basically also grind duration) and additional some weights. The titel of the page can also be edit.
 
 ###### automatic calibration
-If you push the mill button inside the editor (or long pressthe encoder button if there is no mill button) the the calibration will be startet.
+If you push the mill button inside the editor (or long press on the encoder button, if there is no mill button) the calibration will start.
 
-- in order to start the calibration you should measure the amount of the cup to which you are going to grind the coffee. This will be used to train the scale.
-- if the calibration is started the mill runs until the button is released ( or if the button is pushed again, e.g. if you have only one button). You should grind at least one normal portion. More would be more accurate.
-- after that the automatic will ask for the weight which was ground. Therefore you will need to measure it, select the weight on the menu and confirm with the encode button.
+- In order to start the calibration you should measure the amount of the cup to which you are going to grind the coffee. This will be used to train the scale.
+- If the calibration is started the mill runs until the button is released (or if the button is pushed again, e.g. if you have only one button). You should grind at least one normal portion. More would be more accurate.
+- After that the automatic will ask for the weight which was ground. Therefore you will need to measure it, select the weight on the menu and confirm with the encoder button.
 - After that the grind-speed will be set automatically
 
 ###### Portrait mode
@@ -94,8 +96,8 @@ If you push the mill button inside the editor (or long pressthe encoder button i
 ![Landscape Editor](./Assets/pictures/calibration_L.png)
 
 #### Grind!
-The grinding will be started from the coresponding site with the correct button. If there is a programmed grind time or a weight, there will be a progress bar.
-A grinding can be cancled any time by pushing the button which was used to start the grinding. If there is a programmed grindtime, the process will be stoped for 5 secounds and can be resumed with a new button push.
+The grinding will start from the coresponding site with the correct button. If there is a programmed grind time or a weight, there will be a progress bar.
+The grinding can be cancled any time by pushing the button which was used to start the grinding. If there is a programmed grindtime, the process will be stoped for 5 secounds and can be resumed with a new button push.
 During the grind process the user can change the grind time by turning the turining button. This change will not be saved.
 
 ##### Portrait mode
@@ -104,7 +106,7 @@ During the grind process the user can change the grind time by turning the turin
 ![Grind Mode Landscape](./Assets/pictures/grind_L.png)
 
 ### Brew-Timer
-If you set on A0 a "taster" (don't know the english word) you can get a brew-timer. The timer will be cancled by any interaction and cannot be started during the milling process.
+If you set on A0 a button you can get a brew-timer. The timer will be cancled by any interaction and cannot be started during the milling process.
 
 ![Brewing](./Assets/pictures/brew.png)
 
