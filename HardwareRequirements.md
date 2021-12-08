@@ -4,18 +4,18 @@ Here are some more details regarding the hardware rquirements
  1. Runs on Arduino Pro Mini 5V 328 & compatible systems (should be most arduino machines having a ATmega328 or better CPU, needs 32k of storage space).
     1. if you use the mini you need an extra USB adapter
     2. for beginners it will be easier to use a nano
- 2. Needs a rotary encoder with a switch and an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
+ 1. Needs a rotary encoder with a switch and an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
     1. instead of an encoder it could also have 3 buttons (up/ down / enter)
- 4. Display SSD1306 128*64 i2c OLED Display or SSD1306 128*64 spi OLED. They support landscape and portrait mode. comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
- 5. Relais modul for arduino 
- 6. 5 V power adapter (an old smartphone power supply)
- 7. on/off switch so that there is no Standby electricity
- 8. a 220v ralais, SSR or similar if you wanr ro use the [brew timer](#brew-timer) (optional)
+ 1. Display SSD1306 128*64 i2c OLED Display or SSD1306 128*64 spi OLED. They support landscape and portrait mode. comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
+ 1. Relais modul for arduino 
+ 1. 5 V power adapter (an old smartphone power supply)
+ 1. on/off switch so that there is no Standby electricity
+ 1. a 220v ralais, SSR or similar if you wanr ro use the [brew timer](#brew-timer) (optional)
     1. (SSR High Trigger 2 Channel: 2 channel Solid State Relais Modul 5V/230VAC High Level Trigger)
- 10. HX711 modul and scale (optional)
- 11. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
- 12. a mill to tune up
- 13. a breadboard and those conectors (f/f, m/f, m/m). This will be perfect for practise and setting up everything before putting it into a box or inside the mill.
+ 1. HX711 modul and scale (optional)
+ 1. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
+ 1. a mill to tune up
+ 1. a breadboard and those conectors (f/f, m/f, m/m). This will be perfect for practise and setting up everything before putting it into a box or inside the mill.
 
 
 Arduino nano looks like this<br>
