@@ -16,7 +16,7 @@ Here are some examples on how it can look at the end:
 |  <img src="./Assets/pictures/finishedProjects/super0650_116.png" width="240"> |  <img src="./Assets/pictures/finishedProjects/flooene_172.jpg" width="240"> | <img src="./Assets/pictures/finishedProjects/mdanielsen_187.JPEG" width="240">  | <img src="./Assets/pictures/finishedProjects/Mofasepp1982_199.jpg" width="240">  |
 |---|---|---|---|
 | Source: [Kaffee-Netz comment 116](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-6#post-1227378)  | Source: [Kaffee-Netz comment 172](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-9#post-1405995)  | Source: [Kaffee-Netz comment 187](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-10#post-1684586)  | Source: [Kaffee-Netz comment 199](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-10#post-2014633)  |
-
+|   |   |   |   |
 
 
 ### Requirements
