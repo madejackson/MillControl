@@ -22,7 +22,7 @@ Here are some examples on how it can look at the end:
 | Bezzera BB005 | Bezzera BB005 |   |   |
 
 
-### Requirements
+### Hardware Requirements
  1. Runs on Arduino Pro Mini 5V 328 & compatible systems (should be most arduino machines having a ATmega328 or better CPU, needs 32k of storage space).
     1. if you use the mini you need an extra USB adapter
     2. for beginners it will be easier to use a nano
