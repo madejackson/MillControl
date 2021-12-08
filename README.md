@@ -36,6 +36,7 @@ Here are some examples on how it can look at the end:
  9. HX711 modul and scale (optional)
  10. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
 
+A few pictures for the hardware can be found [here](HardwareRequirements.md)
 
 ### Dependencies:
 - Encoder (v1.4) - http://www.pjrc.com/teensy/td_libs_Encoder.html
