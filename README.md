@@ -22,10 +22,8 @@ Here are some examples on how it can look at the end:
 | Bezzera BB005 | Bezzera BB005 |   |   |
 
 
-### Requirements
- - Runs on Arduino Pro Mini & compatible systems (should be most arduino machines having a ATmega328 or better CPU, needs 32k of storage space).
- - Needs a rotary encoder with a switch and an optional second switch (mill switch). If you only have one switch comment out the define in UI.h
- - Output is to a 128*64 graphics display, comment out the orientation define in UI.h
+### Hardware Requirements
+The hardware requirements and some pictures for the hardware can be found [here](HardwareRequirements.md).
 
 ### Dependencies:
 - Encoder (v1.4) - http://www.pjrc.com/teensy/td_libs_Encoder.html
