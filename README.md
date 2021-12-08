@@ -32,7 +32,7 @@ Here are some examples on how it can look at the end:
  5. Relais modul for arduino
  6. 5 V power adapter
  7. on/off switch so that there is no Standby electricity
- 8. a 220v ralai, SSR or similar if you wanr ro use the [brew timer](#brew-timer) (optional)
+ 8. a 220v ralais, SSR or similar if you wanr ro use the [brew timer](#brew-timer) (optional)
  9. HX711 modul and scale (optional)
  10. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
 
