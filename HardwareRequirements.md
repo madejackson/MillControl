@@ -6,16 +6,17 @@ Here are some more details regarding the hardware rquirements
     2. for beginners it will be easier to use the [ardunino nano](#arduino-nano)
  1. Needs a rotary encoder with a switch and an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
     1. instead of an encoder it could also have 3 buttons (up/ down / enter)
- 1. Display SSD1306 128*64 i2c OLED Display or SSD1306 128*64 spi OLED. They support landscape and portrait mode. comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
- 1. Relais modul for arduino 
- 1. 5 V power adapter (an old smartphone power supply)
- 1. on/off switch so that there is no Standby electricity
- 1. a 220v ralais, SSR or similar if you wanr ro use the [brew timer](#brew-timer) (optional)
+ 1. Display: SSD1306 128x64 i2c OLED or SSD1306 128x64 spi OLED.
+    1. They support landscape and portrait mode. comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
+ 3. Relais modul for arduino 
+ 4. 5 V power adapter (an old smartphone power supply)
+ 5. on/off switch so that there is no Standby electricity
+ 6. a 220v ralais, SSR or similar if you wanr ro use the [brew timer](#brew-timer) (optional)
     1. (SSR High Trigger 2 Channel: 2 channel Solid State Relais Modul 5V/230VAC High Level Trigger)
- 1. HX711 modul and scale (optional)
- 1. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
- 1. a mill to tune up
- 1. a breadboard and those conectors (f/f, m/f, m/m). This will be perfect for practise and setting up everything before putting it into a box or inside the mill.
+ 7. HX711 modul and scale (optional)
+ 8. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
+ 9. a mill to tune up
+ 10. a breadboard and those conectors (f/f, m/f, m/m). This will be perfect for practise and setting up everything before putting it into a box or inside the mill.
 
 
 ### Arduino nano<br>
