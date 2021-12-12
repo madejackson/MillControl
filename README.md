@@ -26,7 +26,10 @@ Here are some examples on how it can look at the end:
 
 
 ### Hardware Requirements
+For Beginners [here](forBeginners.md) are some tipps to get started
 The hardware requirements and some pictures, which show you what the hardware looks like, can be found [here](HardwareRequirements.md).
+
+
 
 ### Dependencies:
 - Encoder (v1.4) - http://www.pjrc.com/teensy/td_libs_Encoder.html
