@@ -5,11 +5,14 @@ Credits for this are going out to [romanseidl](https://github.com/romanseidl) fo
 If you speak german you can find a forum with some discussion here: 
 https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-und-brew-timer.95553/
 
-07.12.2021 - Currently I am working on getting all the content from the forum to github
+12.12.2021 
+- If you wnat to help you can always check the Kaffe-Netz Forum and see if something is missing in the descriptions here. I am still not done with reviewing all the comments.
+- You can also have a look at the open issues, e.g. if you found a typo somewhere, if you would like to add a tip, you would like to say thank you ;) or everything else
+- Feel free to open new issues, PRs etc.
 
 ## Purpose of this project
 This was designed to build a time controlled coffee grinder out of any regular machine. 
-It was developed to be used with a Graef CM 70 but it should work fine with any brand or model.
+It was developed to be used with a Graef CM 70 but it should work fine with any brand or models (as you can see below).
 During the development process a weight option was introduced as well.
 
 Here are some examples on how it can look at the end:
@@ -23,7 +26,7 @@ Here are some examples on how it can look at the end:
 
 
 ### Hardware Requirements
-The hardware requirements and some pictures for the hardware can be found [here](HardwareRequirements.md).
+The hardware requirements and some pictures, which show you what the hardware looks like, can be found [here](HardwareRequirements.md).
 
 ### Dependencies:
 - Encoder (v1.4) - http://www.pjrc.com/teensy/td_libs_Encoder.html
