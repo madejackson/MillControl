@@ -26,7 +26,7 @@ Here are some examples on how it can look at the end:
 
 
 ### Hardware Requirements
-For Beginners [here](forBeginners.md) are some tipps to get started.<br>
+For beginners [here](forBeginners.md) are some tipps to get started.<br>
 The hardware requirements and some pictures, which show you what the hardware looks like, can be found [here](HardwareRequirements.md).
 
 
