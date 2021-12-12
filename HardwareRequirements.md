@@ -3,7 +3,7 @@ Here are some more details regarding the hardware rquirements
 ## Hardware Requirements
  1. Runs on Arduino Pro Mini 5V 328 & compatible systems (should be most arduino machines having a ATmega328 or better CPU, needs 32k of storage space).
     1. if you use the mini you need an extra USB adapter
-    2. for beginners it will be easier to use a nano
+    2. for beginners it will be easier to use the [ardunino nano](#arduino-nano)
  1. Needs a rotary encoder with a switch and an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
     1. instead of an encoder it could also have 3 buttons (up/ down / enter)
  1. Display SSD1306 128*64 i2c OLED Display or SSD1306 128*64 spi OLED. They support landscape and portrait mode. comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
@@ -18,7 +18,8 @@ Here are some more details regarding the hardware rquirements
  1. a breadboard and those conectors (f/f, m/f, m/m). This will be perfect for practise and setting up everything before putting it into a box or inside the mill.
 
 
-Arduino nano looks like this<br>
+### Arduino nano<br>
+it can look like the following. It was an arduino nano v.3.0<br>
 ![image](https://user-images.githubusercontent.com/34890799/145284843-4fe529c0-1051-4825-8ec8-2eaacccb000e.png)
 
 rotary encoder looks like this<br>
