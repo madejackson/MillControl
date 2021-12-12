@@ -13,3 +13,15 @@ For Arduino beginners I would recommend the following to get started with all of
 4. If you are familiar with your arduino and you know how you can power up the breadboard, how to bring code to your arduino and how the wireing works. I would say you can go on with this "mill project".
 
 ## Bring the display to live
+
+setting up the display<br>
+<img width="817" alt="Bildschirmfoto 2021-12-12 um 21 25 43" src="https://user-images.githubusercontent.com/34890799/145728445-7ffa7f8d-387d-4550-94be-1ed47498e444.png"><br>
+- 3v3 -> VCC
+- A4 -> SDA
+- A5 -> SCL
+- GND -> GND
+Pictrues is available under assets - pictures - beginners<br>
+https://www.youtube.com/watch?v=PfGUz6wkbeI
+
+Hello world with U8GLib and the following object, worked
+- U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE|U8G_I2C_OPT_DEV_0);	// I2C / TWI 
