@@ -56,7 +56,7 @@ This will include:
 - a fritzing pictures
 - an actual picture from me ;) (I am still not there)
 
-Link to [demoSetup.md](demoSetup.md)
+Link to [demoSetup.md](./subPages/demoSetup.md)
 
 
 #### Contecting it to the mill
