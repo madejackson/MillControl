@@ -4,9 +4,10 @@ Here are some more details regarding the hardware rquirements
  1. Runs on Arduino Pro Mini 5V 328 & compatible systems (should be most arduino machines having a ATmega328 or better CPU, needs 32k of storage space).
     1. if you use the mini you need an extra USB adapter
     2. for beginners it will be easier to use the [ardunino nano](#arduino-nano)
- 1. Needs a rotary encoder with a switch and an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
+ 1. rotary encoder (e.g. ky 040) with a switch 
     1. instead of an encoder it could also have 3 buttons (up/ down / enter)
- 1. Display: SSD1306 128x64 i2c OLED or SSD1306 128x64 spi OLED.
+ 1. an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
+ 2. Display: SSD1306 128x64 i2c OLED or SSD1306 128x64 spi OLED.
     1. They support landscape and portrait mode. comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
  3. Relais modul for arduino 
  4. 5 V power adapter (an old smartphone power supply)
