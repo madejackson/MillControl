@@ -47,7 +47,7 @@ After you are familiar with the hardware, set up the LED and the OLED display an
 And this is, getting the stuff on to the arduino.
 To do so, you will have multiple options:
 
-- via arduino [WebEditor](arduinoWebEditor.md)
+- via arduino [WebEditor](./subPages/arduinoWebEditor.md)
 - a local Arduino IDE (integrated development environment)
 
 #### Demo setup
