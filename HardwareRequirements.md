@@ -18,6 +18,9 @@ Here are some more details regarding the hardware rquirements
  8. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
  9. a mill to tune up
  10. a breadboard and those conectors (f/f, m/f, m/m). This will be perfect for practise and setting up everything before putting it into a box or inside the mill.
+ 11. a LED will be good for beginners to do some testing
+     1. recomanding a RGB LED which gives you more options when it comes to the rotary encoder
+     2. RGB Led KY-016
 
 
 ### Arduino nano<br>
