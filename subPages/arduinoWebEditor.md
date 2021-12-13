@@ -1,12 +1,13 @@
+# Using the arduino WebEditor
 13.12.2021: Work in progress
-- screenshots will be added later
+- screenshots will be added later. There are availabel under Subpages -> pictures
 
 In this section I will describe step by step how to get the arduino project from GitHub on to your arduino Nano. Using the arduino webeditor.
 Note: the free Plan has only 200s of compilation time a day. During my experiments I ran out of time. In that case a local installation will be better.
 
 ## Mac (windows will be similar I guess)
 
-1. Download the project from the master
+1. download the project from the master
 1. transform the "millControl" folder into a ZIP file
 1. open the WebEditor on arduino.cc
 1. go to sketchbook
