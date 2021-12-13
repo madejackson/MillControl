@@ -43,12 +43,12 @@ I prefer a old school schmatic style over those fanzy fritzing pictures.
 ![Schematic](./Assets/schematic_darktmode.png#gh-dark-mode-only)
 
 ### Deploy the MillController
-After you are familiar with the hardware, set up the LED and the OLED display and you have done some other arduino experiments, you are ready for the next step.
+After you are familiar with the hardware, experimented a little with the LED, instaled the OLED display and have done some other arduino experiments, you are ready for the next step.
 And this is, getting the stuff on to the arduino.
 To do so, you will have multiple options:
 
-- via arduino [WebEditor](./subPages/arduinoWebEditor.md)
-- a local Arduino IDE (integrated development environment)
+- with the help of the arduino [WebEditor](./subPages/arduinoWebEditor.md)
+- (todo) a local Arduino IDE (integrated development environment)
 
 #### Demo setup
 The purpose of the demo setup is to make sure, that all components are working even without installing it on the mill directly. Through that you can test a little and see if all components are working and how the UI works.
