@@ -47,9 +47,20 @@ After you are familiar with the hardware, set up the LED and the OLED display an
 And this is, getting the stuff on to the arduino.
 To do so, you will have multiple options:
 
-- via arduino WebEditor
+- via arduino WebEditor (Todo: link to arduinoWebEditor.md)
 - a local Arduino IDE (integrated development environment)
 
+#### Demo setup
+The purpose of the demo setup is to make sure, that all components are working even without installing it on the mill yet.
+this will include:
+- a fritzing pictures
+- an actual picture from me ;) (I am still not there)
+
+(Todo: link to demoSetup.md)
+
+
+#### Contecting it to the mill
+work in progress
 
 ### User Interface
 
