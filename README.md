@@ -43,7 +43,7 @@ I prefer a old school schmatic style over those fanzy fritzing pictures.
 ![Schematic](./Assets/schematic_darktmode.png#gh-dark-mode-only)
 
 ### Deploy the MillController
-After you are familiar with the hardware, experimented a little with the LED, instaled the OLED display and have done some other arduino experiments, you are ready for the next step.
+After you are familiar with the hardware, experimented a little with the LED, installed the OLED display and have done some other arduino experiments, you are ready for the next step.
 And this is, getting the stuff on to the arduino.
 To do so, you will have multiple options:
 
