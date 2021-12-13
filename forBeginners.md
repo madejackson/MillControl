@@ -25,3 +25,9 @@ https://www.youtube.com/watch?v=PfGUz6wkbeI
 
 Hello world with U8GLib and the following object, worked
 - U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE|U8G_I2C_OPT_DEV_0);	// I2C / TWI 
+
+## Bring other components to live
+
+If you are a little lost with the taster, with the rotary encoder, etc. I would advice to search on google for the name of the component and "setup arduino nano":
+- e.g.: for the roatry encoder: ky 040 setup arduino nano
+- e.g.: for the taster: ky 004 setup arduino nano
