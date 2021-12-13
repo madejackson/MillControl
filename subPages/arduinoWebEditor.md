@@ -15,4 +15,13 @@ Mac (windows will be similar I guess)
 1. click on verify and save
 1. it should say "Success: ...."
    1. If you import only the "MillControll.ino" file you will get a bunch of errors because of missing files
-1. 
+1. in case you are using a arduino nano you will need to change some configurations (see below)
+
+
+## Config changes for the arduino nano
+- MillControll.ino line 65: Rotator *UI::rotator = new RotatingEncoder(11, 10); 
+- MillControll.ino line 77: ENCODER_BUTTON 9 
+- in UI.h line 32: Mill_Button = 12
+- in UI.h line 36: comment out
+
+Display pins müssen noch gesetzt werden
