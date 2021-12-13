@@ -1,6 +1,6 @@
 # Using the arduino WebEditor
 13.12.2021: Work in progress
-- screenshots will be added later. There are availabel under Subpages -> pictures
+- screenshots will be added later. There are available under Subpages -> pictures
 
 In this section I will describe step by step how to get the arduino project from GitHub on to your arduino Nano. Using the arduino webeditor.
 Note: the free Plan has only 200s of compilation time a day. During my experiments I ran out of time. In that case a local installation will be better.
