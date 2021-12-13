@@ -30,7 +30,6 @@ For beginners [here](forBeginners.md) are some tipps to get started.<br>
 The hardware requirements and some pictures, which show you what the hardware looks like, can be found [here](HardwareRequirements.md).
 
 
-
 ### Dependencies:
 - Encoder (v1.4) - http://www.pjrc.com/teensy/td_libs_Encoder.html
 - TimerOne (v1.1) - https://github.com/PaulStoffregen/TimerOne
@@ -42,6 +41,15 @@ I prefer a old school schmatic style over those fanzy fritzing pictures.
 
 [![Schematic](./Assets/schematic_2.png)](./Assets/schematic.pdf#gh-light-mode-only)
 ![Schematic](./Assets/schematic_darktmode.png#gh-dark-mode-only)
+
+### Deploy the MillController
+After you are familiar with the hardware, set up the LED and the OLED display and you have done some other arduino experiments, you are ready for the next step.
+And this is, getting the stuff on to the arduino.
+To do so, you will have multiple options:
+
+- via arduino WebEditor
+- a local Arduino IDE (integrated development environment)
+
 
 ### User Interface
 
