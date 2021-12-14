@@ -14,7 +14,7 @@ It will looke like this:
    4. rotary encoder
    5. (todo) maybe the On/Off switch needs to be placed here as well
    6. (todo) place the relais somewhere
-1. the following lines can be changed to mock the mill/relais to a LED. So that if the millButton will be pushed, the LED will be turned on until the grind process is done. (todo: note in the real setup, that some lines might to be changed back)
+1. the following lines can be changed to mock the mill/relais to a LED. So that if the millButton will be pushed, the LED will be turned on until the grind process is done.
    1. in UI.h the line 110
       1. from: static const unsigned char RELAY_PIN = 7; 
       2. to: static const unsigned char RELAY_PIN = LED_BUILTIN;
