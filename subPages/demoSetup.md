@@ -30,6 +30,7 @@ It will looke like this:
 <img src="./pictures/E524C827-B731-4221-AC48-F4BE631F5D13.jpeg" width="240"><br>
 <video src="./pictures/IMG_7143.MP4" controls="controls" style="max-width: 730px;">
 </video>
+1. the last step would be to hock up something on the relais. E.g. a lamp or something with an external powersupply. So that we can test if the relais and the programm works as designed.
 
 To test the Relais LED you can also play a little and insert those lines:
 in UI.H underneath line 110:
