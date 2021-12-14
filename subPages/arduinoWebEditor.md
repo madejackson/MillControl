@@ -30,6 +30,7 @@ Note: the free Plan has only 200s of compilation time a day. During my experimen
 - MillControll.ino line 77: ENCODER_BUTTON 9 
 - in UI.h line 32: Mill_Button = 12
 - in UI.h line 36: comment out
+- in UI.h line 109 the Relais Pin: (todo)
 
 ## Config changes for the display
 - depening on i2c or SPI you need to change some values (lines 141 and further). The default values should still work. If not we proably need to update the U8GLib
