@@ -50,5 +50,6 @@ It will looke like this:
 <img src="./pictures/E524C827-B731-4221-AC48-F4BE631F5D13.jpeg" width="240"><br>
 1. the last step would be to hock up something on the relais. E.g. a lamp or something with an external powersupply. So that we can test if the relais and the programm works as designed.
    1. I connected the kitchen lamp. Doesn't looks so save but works and it does the job
+   2. <img src="./pictures/F7B15CE8-A048-4015-85E0-23DD5CE3CAFB.jpeg" width="240"><br>
 
 ## Todo: add a demo with scale
