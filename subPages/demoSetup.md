@@ -1,10 +1,61 @@
 ## This describes how to set up the demo without the scale
 Instead of the mill we will use the buildin LED from the arduino or a LED.
 
-It will looke like this:
+### Connecting the wires
 
 - (todo) fritzing picture
-- (todo) real picture
+
+Arduino
+```
+D12 -> Taster Signal
+D11 -> Rotary Encoder CLK
+D10 -> Rotary Encoder DT
+D09 -> Rotary Encoder SW
+D08 -> Relais Signal
+GND -> Taster GND, Rotary Encoder GND, Display GND, Relais
+3V3 -> Taster positiv, Rotary Encoder positiv, Display VCC, Relais
+A5  -> Display SCL
+A4  -> Display SDA
+
+```
+Taster
+```
+Signal -> Arduino D12
+GND    -> Arduino GND 
+Positv -> Arduino 3V3
+
+```
+Rotary encoder
+```
+CLK     -> Arduino D11
+DT      -> Arduino D10
+SW      -> Arduino D09
+Positiv -> Arduino 3V3
+GND     -> Arduino GND
+
+```
+
+Display
+```
+GND -> Arduino GND 
+VCC -> Arduino 3V3
+SCL -> Arduino A5
+SDA -> Arduino A4
+
+```
+
+Relais
+```
+Signal  -> Arduino D8
+Positiv -> Arduino 3V3
+Negativ -> Arduino GND
+
+```
+
+### Building up the set up:
+
+
+
 
 1. the project must be inside an IDE (like described in the [WebEditor](./arduinoWebEditor.md))
 2. set up the components on the breadboard
