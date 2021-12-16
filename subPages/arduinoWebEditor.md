@@ -18,7 +18,7 @@ Note: the free plan has only 200s of compilation time a day. During my experimen
 8. click import
 9. choose the "millControl.zip" file and upload it
    1. during the import it will tell you that some of the folder's XYZ files do not contain something. You can accept it.
-10. for the arduino nano you will need to change some configurations (see below [Config changes for the arduino nano](#config-changes-for-the-arduino-nano)
+10. for the arduino nano you will need to change some configurations (see below [Config changes for the arduino nano](#config-changes-for-the-arduino-nano))
 11. depending on the display i2c or spi you need to adjust the settings (see below [Config changes for the display](#config-changes-for-the-display))
 12. select "MillControll.ino" from the tab in the WebEditor on arduino.cc
 13. click on verify and save
