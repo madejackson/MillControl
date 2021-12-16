@@ -1,7 +1,4 @@
 # Using the arduino WebEditor
-13.12.2021: Work in progress
-- screenshots will be added later. There are available under Subpages -> pictures
-
 In this section I will describe step by step how to get the arduino project from GitHub on to your Arduino Nano. Using the arduino webeditor.
 Note: the free plan has only 200s of compilation time a day. During my experiments I ran out of compilation time sometimes. In that case a local installation will be better or just wait a day ;)
 
@@ -32,11 +29,13 @@ Note: the free plan has only 200s of compilation time a day. During my experimen
 
 ## Config changes for the arduino nano
 The values for the PINs can be found here [demoSetup.md](./demoSetup.md)
+```
 - MillControll.ino line 65: Rotator *UI::rotator = new RotatingEncoder(<CLK Pin>, <DT PIN>); 
 - MillControll.ino line 77: ENCODER_BUTTON <SW PIN> 
 - in UI.h line 32: Mill_Button = <Taster Signal PIN>
 - in UI.h line 36: comment out
 - in UI.h line 109: Relais Pin = <Relais Signal PIN>
+```
 
 ## Config changes for the display
 The values for the PINs can be found here [demoSetup.md](./demoSetup.md)
