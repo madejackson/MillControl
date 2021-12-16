@@ -1,7 +1,7 @@
-For Arduino beginners I would recommend the following to get started with all of this:
+For Arduino beginners I would recommend the following to get started with all of this.
 
 ## Get to know the arduino
-1. If you are setisfied with the project, go ahead and buy all the required hardware components (see list [here](HardwareRequirements.md))
+1. Read through the full project. If you are settisfied with the project, go ahead and buy all the required hardware components (see list [here](HardwareRequirements.md))
    - the breadbord and the LEDs will be really good to start with. Those are easy componets which will help you to lern a bit more about the arduino and get first hands on the project.
 2. learn how the breadboard works. You will need a basic understanding.
    - google for: breadboard arduino function
