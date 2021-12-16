@@ -23,7 +23,7 @@ Note: the free plan has only 200s of compilation time a day. During my experimen
 12. select "MillControll.ino" from the tab in the WebEditor on arduino.cc
 13. click on verify and save
 14. it should say "Success: ...."
-   1. If you imported only the "MillControll.ino" file, you will get a bunch of errors during "verify and save" because of missing files
+    1. If you imported only the "MillControll.ino" file, you will get a bunch of errors during "verify and save" because of missing files
 15. connect the arduino
 16. make sure that "MillControll.ino" is still selected from the tab
 17. hit the upload and save button
