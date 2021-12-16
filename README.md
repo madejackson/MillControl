@@ -35,6 +35,8 @@ The hardware requirements and some pictures, which show you what the hardware lo
 - TimerOne (v1.1) - https://github.com/PaulStoffregen/TimerOne
 - U8Glib - https://github.com/olikraus/u8glib
 
+OP: if someone knows how to update those libraries in the project please go ahaed. Would be also good to have a short documentation about it, too.
+
 ### Electronic schematic
 
 I prefer a old school schmatic style over those fanzy fritzing pictures.
