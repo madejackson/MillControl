@@ -53,16 +53,13 @@ To do so, you will have multiple options:
 - (todo) a local Arduino IDE (integrated development environment)
 
 #### Demo setup
-The purpose of the demo setup is to make sure, that all components are working even without installing it on the mill directly. Through that you can test a little and see if all components are working and how the UI works.
-This will include:
-- a fritzing pictures
-- an actual picture from me ;) (I am still not there)
+The purpose of the demo setup is to make sure, that all components are working even without installing it on the mill directly. Through that you can test a little and see if all components are working and how the UI works. You can finde a step by step demo setup [here](./subPages/demoSetup.md)
 
-Link to [demoSetup.md](./subPages/demoSetup.md)
+#### Real setup
+After your demo setup works well we should go on and set it up to the mill.
+Work in progress: 
+- [Here](./subPages/realSetupCM70.md) is an example how I did it for the CM70
 
-
-#### Contecting it to the mill
-work in progress
 
 ### User Interface
 
