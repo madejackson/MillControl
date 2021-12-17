@@ -22,6 +22,7 @@ It might be different between different mills.
 2. Power up the arduino and the mill
 3. push the millButton on the arduino
 4. It works!!!!
+5. a short clip can be found here: https://github.com/Steffeeeen1234/MillControl/blob/master/subPages/pictures/IMG_7164.MP4
 
 ## How can we make it nice?
 
