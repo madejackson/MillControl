@@ -1,4 +1,3 @@
-16.12.2021: Work in progress
 
 This will describe how you do the real setup to a mill. On your own risk. On your own mill.
 It might be different between different mills.
@@ -23,3 +22,7 @@ It might be different between different mills.
 2. Power up the arduino and the mill
 3. push the millButton on the arduino
 4. It works!!!!
+
+## How can we make it nice?
+
+17.12.2021: Work in progress
