@@ -39,7 +39,7 @@ OP: if someone knows how to update those libraries in the project please go ahae
 
 ### Electronic schematic
 
-I prefer a old school schmatic style over those fanzy fritzing pictures.
+I prefer an old school schmatic style over those fanzy fritzing pictures.
 
 [![Schematic](./Assets/schematic_2.png)](./Assets/schematic.pdf#gh-light-mode-only)
 ![Schematic](./Assets/schematic_darktmode.png#gh-dark-mode-only)
@@ -53,7 +53,8 @@ To do so, you will have multiple options:
 - (todo) a local Arduino IDE (integrated development environment)
 
 #### Demo setup
-The purpose of the demo setup is to make sure, that all components are working even without installing it on the mill directly. Through that you can test a little and see if all components are working and how the UI works. You can finde a step by step demo setup [here](./subPages/demoSetup.md)
+The purpose of the demo setup is to make sure, that all components are working even without connecting it directly on the mill. 
+Through that you can test a little and see if all components are working and how the UI works. You can finde a step by step demo setup [here.](./subPages/demoSetup.md)
 
 #### Real setup
 After your demo setup works well we should go on and set it up to the mill.
