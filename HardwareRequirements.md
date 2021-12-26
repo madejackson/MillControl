@@ -8,7 +8,7 @@ Here are some more details regarding the hardware rquirements
     1. instead of an encoder it could also have 3 buttons (up/ down / enter). With 3 buttons you will need more space and more wires to connect
  1. [Display](#display): SSD1306 128x64 i2c OLED or SSD1306 128x64 spi OLED.
     1. They support landscape and portrait mode. Comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
- 4. 5 V power adapter (an old smartphone power supply). To power up the arduino. Right now I am not sure how to connect the arduino directly to the power supply, because the power seems to be to much for the arduino.
+ 4. 5 V power adapter (an old smartphone power supply). To power up the arduino.
  6. [Relais modul](#the-relais-modul-looks-like-this) for arduino (Relais 5V KY-019 Modul High-Level-Trigger)
  9. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
  10. a mill to tune up
@@ -21,6 +21,7 @@ Here are some more details regarding the hardware rquirements
  3. (optional) a 220v ralais, SSR or similar if you want to use the [brew timer](#brew-timer) 
     1. (SSR High Trigger 2 Channel: 2 channel Solid State Relais Modul 5V/230VAC High Level Trigger)
  8. (optional) HX711 modul and scale 
+ 9. (optional) [220v to 5v power supply](#220v-to-5v-converter). You could also disassemble an old smartphone power supply
 
 
 ### Arduino nano<br>
@@ -63,3 +64,7 @@ https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-time
 ### breadboard and wires<br>
 ![image](https://user-images.githubusercontent.com/34890799/145288024-ebd61c2b-5a6f-4d62-abfa-12cfbffb5df2.png)
 
+### 220v to 5v converter
+220V to 5V mini power supply compatible with Arduino and Raspberry Pi<br>
+<img src="./Assets/pictures/beginners/220v_to_5v.png" width="240">
+Source: https://www.az-delivery.de/en/products/copy-of-220v-zu-5v-mini-netzteil
