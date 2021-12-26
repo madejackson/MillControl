@@ -57,7 +57,7 @@ The purpose of the demo setup is to make sure, that all components are working e
 Through that you can test a little and see if all components are working and how the UI works. You can finde a step by step demo setup [here.](./subPages/demoSetup.md)
 
 #### Real setup
-After your demo setup works well we should go on and set it up to the mill.
+After your demo setup works well you should go on and set it up to the mill.
 Work in progress: 
 - [Here](./subPages/realSetupCM70.md) is an example how I did it for the CM70
 
