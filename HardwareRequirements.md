@@ -1,4 +1,4 @@
-Back to the [main page](../README.md)
+Back to the [main page](./README.md).<br>
 Here are some more details regarding the hardware rquirements
 
 ## Hardware Requirements
