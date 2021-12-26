@@ -67,5 +67,5 @@ https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-time
 
 ### 220v to 5v converter
 220V to 5V mini power supply compatible with Arduino and Raspberry Pi<br>
-<img src="./Assets/pictures/beginners/220v_to_5v.png" width="240">
+<img src="./Assets/pictures/beginners/220v_to_5v.png" width="240"><br>
 Source: https://www.az-delivery.de/en/products/copy-of-220v-zu-5v-mini-netzteil
