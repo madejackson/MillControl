@@ -28,7 +28,11 @@ It might be different between different mills.
 ### How can we make the setup for the CM70 nice?
 
 First thing which annoyed me after grinding a few coffees was that the external taster/mill button on the arduino needed to be pushed instead of the build in MillButton.
-But this can be solved quite easy:
+
+Second thing which annoyed me was that the arduino needs it own power supply. I think it is much more handy if it is connected to the mills voltage circut.
+
+#### Using the built in MillButton
+
 1. open up the mill again
 3. find the wires which control the buildin mill button. In my case those are the brown once.
 4. disconnect the wires from the mill voltage circut
@@ -41,7 +45,8 @@ But this can be solved quite easy:
 8. now you have two wires going out and two wires going into the mill
    1. <img src="./pictures/MillButtonAndPower.png" width="240">
 
-Second thing which annoyed me was that the arduino needs it own power supply. I think it is much more handy if it is connected to the mills voltage circut.
-1. To change that I have ordered a 220v to 5v power supply (see hardware page [here](../HardwareRequirements.md)). We will see if that works
+#### Connecting the Arduino to the voltage curcuit from the mill
+1. To change that I have ordered the "mean well RS 15 5" a 220v to 5v power supply (see hardware page [here](../HardwareRequirements.md)). We will see if that works
+2.
 
 26.12.2021: Work in progress
