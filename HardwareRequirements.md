@@ -23,6 +23,7 @@ Here are some more details regarding the hardware rquirements
     1. (SSR High Trigger 2 Channel: 2 channel Solid State Relais Modul 5V/230VAC High Level Trigger)
  13. (optional) HX711 modul and scale 
  14. (optional) maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
+ 15. (optional) 50 cm of an old wire/cable to connect the mill power to the [220v to 5v power supply](#220v-to-5v-converter).
 
 
 ### Arduino nano<br>
