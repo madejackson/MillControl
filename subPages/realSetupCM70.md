@@ -70,4 +70,4 @@ The best I found is this wire box. I found it at the local hardware store.
 2. Cut the wires short, connect all GND wires to one Arduino wire (in progress) 
 3. put everything together in the box
 
-
+A possible next thing could be to place a case around the display. Something like this: https://www.thingiverse.com/thing:2176764/comments
