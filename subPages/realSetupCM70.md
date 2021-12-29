@@ -27,11 +27,9 @@ It might be different between different mills.
 
 ### How can we make the setup for the CM70 nice?
 
-First thing which annoyed me, after grinding a few coffees was that the external taster/mill button on the arduino needed to be pushed instead of the build in MillButton.
-
-Second thing which annoyed me was, that the arduino needed its own power supply. I think it is much more handy if it is connected to the mills voltage circut.
-
-Thrid thing was, how to make the setup so small that it fits into a box. If you use smaller party (e.g. for the power Supply or the relais) and if you have enough room in the mill, you can also put everything inside it. I didn't managed and I am fine with the small box.
+1. First thing which annoyed me, after grinding a few coffees was that the external taster/mill button on the arduino needed to be pushed instead of the build in MillButton.
+2. Second thing which annoyed me was, that the arduino needed its own power supply. I think it is much more handy if it is connected to the mills voltage circut.
+3. Thrid thing was, how to make the setup so small that it fits into a box. If you use smaller party (e.g. for the power Supply or the relais) and if you have enough room in the mill, you can also put everything inside it. I didn't managed and I am fine with the small box.
 
 #### Using the built in MillButton
 
@@ -61,6 +59,7 @@ Thrid thing was, how to make the setup so small that it fits into a box. If you 
 5. put the mill back together
 6. now you don't need to connect a 2nd power cable to the arduino anymore
    1. <img src="./pictures/PowerMillAndArduino.png" width="240">
+   2. <img src="./pictures/CM70_bottom_wires_1.png" width="240">
 
 #### Fit everything in a box (29.12.2021: Work in progress)
 For now I havent found a good 3D printed version for a box so that everything fits. 
