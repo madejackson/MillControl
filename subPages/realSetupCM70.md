@@ -44,6 +44,7 @@ It might be different between different mills.
 7. put everything back together
 8. now you have two wires going out and two wires going into the mill
    1. <img src="./pictures/MillButtonAndPower.png" width="240">
+   2. <img src="./pictures/CM70_bottom_wires_1.png" width="240">
 
 #### Connecting the Arduino to the voltage curcuit from the mill
 1. To change that I have ordered the "mean well RS 15 5" a 220v to 5v power supply (see hardware page [here](../HardwareRequirements.md)).
@@ -59,7 +60,6 @@ It might be different between different mills.
 5. put the mill back together
 6. now you don't need to connect a 2nd power cable to the arduino anymore
    1. <img src="./pictures/PowerMillAndArduino.png" width="240">
-   2. <img src="./pictures/CM70_bottom_wires_1.png" width="240">
 
 #### Fit everything in a box (29.12.2021: Work in progress)
 For now I havent found a good 3D printed version for a box so that everything fits. 
