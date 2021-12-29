@@ -27,9 +27,11 @@ It might be different between different mills.
 
 ### How can we make the setup for the CM70 nice?
 
-First thing which annoyed me after grinding a few coffees was that the external taster/mill button on the arduino needed to be pushed instead of the build in MillButton.
+First thing which annoyed me, after grinding a few coffees was that the external taster/mill button on the arduino needed to be pushed instead of the build in MillButton.
 
-Second thing which annoyed me was that the arduino needs it own power supply. I think it is much more handy if it is connected to the mills voltage circut.
+Second thing which annoyed me was, that the arduino needed its own power supply. I think it is much more handy if it is connected to the mills voltage circut.
+
+Thrid thing was, how to make the setup so small that it fits into a box. If you use smaller party (e.g. for the power Supply or the relais) and if you have enough room in the mill, you can also put everything inside it. I didn't managed and I am fine with the small box.
 
 #### Using the built in MillButton
 
@@ -46,7 +48,26 @@ Second thing which annoyed me was that the arduino needs it own power supply. I 
    1. <img src="./pictures/MillButtonAndPower.png" width="240">
 
 #### Connecting the Arduino to the voltage curcuit from the mill
-1. To change that I have ordered the "mean well RS 15 5" a 220v to 5v power supply (see hardware page [here](../HardwareRequirements.md)). We will see if that works
-2.
+1. To change that I have ordered the "mean well RS 15 5" a 220v to 5v power supply (see hardware page [here](../HardwareRequirements.md)).
+1. unplug the mill and the arduino from the power
+2. open up the mill again
+3. locate the incoming power wire.
+1. I have removed the rubber things and installed those two white things (luster terminal). And now you can easily connect a cable which will go to the power supply. I guess you can use any kind of cable. But be carefull because there will be a lot of power going through those wires later.
+   1. <img src="./pictures/MillPower.png" width="240">
+1. On the power Supply you connect those two cable coming from the mill to L and N. 
+   1. <img src="./pictures/PowerSupplyArduino.png" width="240">
+3. you connect two wires which will go to the arduino at "-V" and "+V" 
+4. on the arduino you connect "+V" to VIN and "-V" to GND
+5. put the mill back together
+6. now you don't need to connect a 2nd power cable to the arduino anymore
+   1. <img src="./pictures/PowerMillAndArduino.png" width="240">
 
-26.12.2021: Work in progress
+#### Fit everything in a box (29.12.2021: Work in progress)
+For now I havent found a good 3D printed version for a box so that everything fits. 
+The best I found is this wire box. I found it at the local hardware store.
+
+1. To put everything inside the box, we need to find out were to place which part (in progress)
+2. Cut the wires short, connect all GND wires to one Arduino wire (in progress) 
+3. put everything together in the box
+
+
