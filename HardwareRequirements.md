@@ -6,23 +6,23 @@ Here are some more details regarding the hardware rquirements
     1. if you use the mini you need an extra USB adapter
     2. for beginners it will be easier to use the [ardunino nano](#arduino-nano)
  1. [Rotary Encoder](#rotary-encoder) (e.g. ky 040) with a switch 
-    1. instead of an encoder it could also have 3 buttons (up/ down / enter). With 3 buttons you will need more space and more wires to connect
+    1. instead of an encoder it could also have 3 buttons (up/ down / enter). With 3 buttons you will need more space and more wires to connect.
  1. [Display](#display): SSD1306 128x64 i2c OLED or SSD1306 128x64 spi OLED.
     1. They support landscape and portrait mode. Comment out the orientation define in UI.h. If you use a bigger display have a look at U8Glib line 132 and comment this out (hopefully there is a comment ;))
  4. 5 V power adapter (an old smartphone power supply). To power up the arduino.
+ 5. [220v to 5v power supply](#220v-to-5v-converter). You will need it if you don't want to plug in the mill and the ardunio to a power point. You could also disassemble an old smartphone power supply
  6. [Relais modul](#the-relais-modul-looks-like-this) for arduino (Relais 5V KY-019 Modul High-Level-Trigger)
- 9. maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
  10. a mill to tune up
  11. a [breadboard and those conectors](#breadboard-and-wires) (f/f, m/f, m/m). This will be perfect for practising and setting up everything before putting it into a box or inside the mill.
  12. a LED will be good for beginners to do some testing
      1. recomanding a RGB LED which gives you more options when it comes to the rotary encoder
      2. RGB Led KY-016
- 1. (optional) an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
- 2. (optional) on/off switch so that there is no standby electricity
- 3. (optional) a 220v ralais, SSR or similar if you want to use the [brew timer](#brew-timer) 
+ 10. (optional) an optional second switch (mill switch) and a third switch (mill switch 2). If you only have one switch comment out the defines in UI.h
+ 11. (optional) on/off switch so that there is no standby electricity
+ 12. (optional) a 220v ralais, SSR or similar if you want to use the [brew timer](#brew-timer) 
     1. (SSR High Trigger 2 Channel: 2 channel Solid State Relais Modul 5V/230VAC High Level Trigger)
- 8. (optional) HX711 modul and scale 
- 9. (optional) [220v to 5v power supply](#220v-to-5v-converter). You could also disassemble an old smartphone power supply
+ 13. (optional) HX711 modul and scale 
+ 14. (optional) maybe a solution for the [radio interference](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-4#post-1195423)
 
 
 ### Arduino nano<br>
@@ -66,6 +66,12 @@ https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-time
 ![image](https://user-images.githubusercontent.com/34890799/145288024-ebd61c2b-5a6f-4d62-abfa-12cfbffb5df2.png)
 
 ### 220v to 5v converter
-220V to 5V mini power supply compatible with Arduino and Raspberry Pi<br>
+220V to 5V mini power supply compatible with Arduino and Raspberry Pi. This one is small and might fit everywhere.<br>
 <img src="./Assets/pictures/beginners/220v_to_5v.png" width="240"><br>
 Source: https://www.az-delivery.de/en/products/copy-of-220v-zu-5v-mini-netzteil
+
+Another option would be the power Supply from meanwell.<br>
+mean well RS 15 5<br>
+<img src="./Assets/pictures/beginners/220v_to_5v_reichelt.png" width="240"><br>
+Source: https://www.reichelt.de/de/de/schaltnetzteil-geschlossen-15-w-15-v-1-a-snt-rs-15-15-p137082.html?PROVID=2788&gclid=Cj0KCQiAq7COBhC2ARIsANsPATGFYlq7n6U1wTl9yNyxvonLPq07laxUrPZJKiqAPf0v09qCKGZkW2saAtrZEALw_wcB&&r=1
+
