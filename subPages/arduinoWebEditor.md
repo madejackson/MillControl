@@ -55,8 +55,8 @@ The values for the PINs can be found here [demoSetup.md](./demoSetup.md)
 
 ## Custom settings based on your experience:
 You may want to change some more settings in UI.h:
-if only 1x MILL_BUTTON: comment out line 36: **//#define MILL_BUTTON_2 ...**
-if Display is in horizontal orientation: comment out line 47: **//#define PORTRAIT_DISPLAY**
-if you want a single display page for every mode: uncomment line 52: **#define FLAT_MODE**
-if you want to erase EEPROM and flash with default values: uncomment line 59: **#define RESET_MODE**
-if you want to use the scale / HX711 Weight-cell: uncomment line 65: **#define SCALE**
+- if only 1x MILL_BUTTON: comment out line 36: **//#define MILL_BUTTON_2 ...**
+- if Display is in horizontal orientation: comment out line 47: **//#define PORTRAIT_DISPLAY**
+- if you want a single display page for every mode: uncomment line 52: **#define FLAT_MODE**
+- if you want to erase EEPROM and flash with default values: uncomment line 59: **#define RESET_MODE**
+- if you want to use the scale / HX711 Weight-cell: uncomment line 65: **#define SCALE**
