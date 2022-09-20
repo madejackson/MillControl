@@ -38,9 +38,9 @@ The values for the PINs can be found here [demoSetup.md](./demoSetup.md)
 ## Config changes for the relais
 Depending on the used relay you may need to change following lines. My Relais triggers on High signal so I had to change:
 ```
-- Run.cpp line 7: digitalWrite(UI::RELAY_PIN, **HIGH**); to digitalWrite(UI::RELAY_PIN, **LOW**);
-- Run.cpp line 39: void Run::startMill() { digitalWrite(UI::RELAY_PIN, **LOW**); } to void Run::startMill() { digitalWrite(UI::RELAY_PIN, **HIGH**); }
-- Run.cpp line 41: void Run::stopMill() { digitalWrite(UI::RELAY_PIN, **HIGH**); } to void Run::stopMill() { digitalWrite(UI::RELAY_PIN, **LOW**); }
+- Run.cpp line 7: digitalWrite(UI::RELAY_PIN, HIGH); to digitalWrite(UI::RELAY_PIN, LOW);
+- Run.cpp line 39: void Run::startMill() { digitalWrite(UI::RELAY_PIN, LOW); } to void Run::startMill() { digitalWrite(UI::RELAY_PIN, HIGH); }
+- Run.cpp line 41: void Run::stopMill() { digitalWrite(UI::RELAY_PIN, HIGH); } to void Run::stopMill() { digitalWrite(UI::RELAY_PIN, LOW); }
 ```
 
 ## Config changes for the display
