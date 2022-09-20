@@ -33,8 +33,8 @@ The values for the PINs can be found here [demoSetup.md](./demoSetup.md)
 ```
 - MillControll.ino line 65: Rotator *UI::rotator = new RotatingEncoder(<CLK Pin>, <DT PIN>); 
 - MillControll.ino line 77: ENCODER_BUTTON <SW PIN> 
-- in UI.h line 32: Mill_Button = <Taster Signal PIN>
-- in UI.h line 36: comment out
+- in UI.h line 32: MILL_BUTTON = <Taster Signal PIN>
+- in UI.h line 36: MILL_BUTTON_2 = <Taster 2 Signal PIN> or comment out
 - in UI.h line 109: Relais Pin = <Relais Signal PIN>
 ```
 
@@ -51,4 +51,12 @@ The values for the PINs can be found here [demoSetup.md](./demoSetup.md)
 - depending on i2c or SPI you need to change some values (lines 141 and further). The default values should still work. If not we proably need to update the U8GLib
 - if you use i2c, verify if the lines 115 - 123 (SPI - BUS) are comented out.
 - display pins do not need to be set, because they are standard. You can take them from the schematic view or the [demoSetup.md](./demoSetup.md)
+- if you use i2c-display, based on this [comment](https://www.kaffee-netz.de/threads/millcontrol-arduino-muehlensteuerung-mit-timer-gewichtsautomatik-waagensteuerung-und-brew-timer.95553/page-10#post-1677952) you may want to change line 132 to U8GLIB UI::u8g = *new U8GLIB_SSD1306_128X64_2X(U8G_I2C_OPT_**FAST**);
 
+## Custom settings based on your experience:
+You may want to change some more settings in UI.h:
+if only 1x MILL_BUTTON: comment out line 36: **//#define MILL_BUTTON_2 ...**
+if Display is in horizontal orientation: comment out line 47: **//#define PORTRAIT_DISPLAY**
+if you want a single display page for every mode: uncomment line 52: **#define FLAT_MODE**
+if you want to erase EEPROM and flash with default values: uncomment line 59: **#define RESET_MODE**
+if you want to use the scale / HX711 Weight-cell: uncomment line 65: **#define SCALE**
