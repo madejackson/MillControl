@@ -49,8 +49,8 @@ After you are familiar with the hardware, experimented a little with the LED, in
 And this is, getting the stuff on to the arduino.
 To do so, you will have multiple options:
 
+- Recommended: with [Arduino IDE](./subPages/arduinoIDE.md) (classic way, has no compilation time restriction)
 - with the help of the arduino [WebEditor](./subPages/arduinoWebEditor.md)
-- (todo) a local Arduino IDE (integrated development environment)
 
 #### Demo setup
 The purpose of the demo setup is to make sure, that all components are working even without connecting it directly on the mill. 
