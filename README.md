@@ -36,6 +36,7 @@ The hardware requirements and some pictures, which show you what the hardware lo
 - U8Glib - https://github.com/olikraus/u8glib
 
 OP: if someone knows how to update those libraries in the project please go ahaed. Would be also good to have a short documentation about it, too.
+madejackson: I successfully updated the code to compile successfully with U8G2 instead of U8glib. Unfortunatley the memory requirements increase from 85% to 95% so I do not recommend as of yet.
 
 ### Electronic schematic
 

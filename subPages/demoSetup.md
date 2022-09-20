@@ -75,6 +75,15 @@ Negativ -> Arduino GND
       ```
       static const unsigned char RELAY_PIN = LED_BUILTIN;
       ```
+   2. in RUN.cpp line 7
+      1. from: 
+      ```
+      digitalWrite(UI::RELAY_PIN, HIGH);
+      ```
+      3. to: 
+      ```
+      digitalWrite(UI::RELAY_PIN, LOW);
+      ```
    3. in RUN.cpp line 39
       1. from: 
       ```
@@ -84,7 +93,7 @@ Negativ -> Arduino GND
       ```
       void Run::startMill() { digitalWrite(UI::RELAY_PIN, HIGH); } 
       ```
-   5. in RUN.cpp line 41
+   4. in RUN.cpp line 41
       1. from: 
       ```
       void Run::stopMill() { digitalWrite(UI::RELAY_PIN, HIGH); }
@@ -108,18 +117,6 @@ Negativ -> Arduino GND
          static const unsigned char RELAY_PIN = 8;
          static const unsigned char RELAY_PIN_LED = LED_BUILTIN;
       ```
-   1. in RUN.cpp replace line 39 to 42 (todo needs to checked again)
-   ```
-   void Run::startMill() { 
-   digitalWrite(UI::RELAY_PIN, LOW); 
-   digitalWrite(UI::RELAY_PIN_LED, HIGH);
-   }
-
-   void Run::stopMill() { 
-   digitalWrite(UI::RELAY_PIN, HIGH); 
-   digitalWrite(UI::RELAY_PIN_LED, LOW);
-   }
-   ```
 1. with the relais it looks like this<br>
 <img src="./pictures/E524C827-B731-4221-AC48-F4BE631F5D13.jpeg" width="240"><br>
 1. the last step would be to hock up something on the relais. E.g. a lamp or something with an external powersupply. So that we can test if the relais and the programm works as designed.
